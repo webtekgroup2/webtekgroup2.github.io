@@ -1,0 +1,22 @@
+pages:
+ - home
+ - about us
+ - contact us
+ - what do we do?
+
+
+ home
+ - what do we advocate?
+ - some parts of the about us?
+
+ about us
+ - who we are?
+ - mission vision
+
+ contact us
+ - contact details
+ - send us an email
+
+ what do we do?
+ - resolve conflicts
+ - peace talks *
