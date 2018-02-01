@@ -7,32 +7,40 @@
     margin-left: 1%;
     background-color: blue;
 }
-a #con:hover{
+
+a #con:hover {
     background-color: yellow;
 }
+
 #con1 {
     background-color: brown;
 }
-a #con1:hover{
+
+a #con1:hover {
     background-color: yellow;
 }
-a #con2:hover{
+
+a #con2:hover {
     background-color: yellow;
 }
-a #con3:hover{
+
+a #con3:hover {
     background-color: yellow;
 }
 
 #con2 {
     background-color: gray;
 }
+
 #con3 {
     background-color: #00e2ff;
 }
+
 #clear {
     clear: both;
-    
+
 }
+
 #about {
 
     height: 200px;
@@ -43,9 +51,11 @@ a #con3:hover{
     padding: 3% 3% 2% 3%;
     background-color: #00e2ff;
 }
-a #about:hover{
+
+a #about:hover {
     background-color: black;
 }
-header h1{
+
+header h1 {
     text-align: center;
 }
