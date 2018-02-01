@@ -1,0 +1,51 @@
+.line {
+    width: 17.8%;
+    height: 100px;
+    float: left;
+    padding: 8% 3% 8% 3%;
+    text-align: center;
+    margin-left: 1%;
+    background-color: blue;
+}
+a #con:hover{
+    background-color: yellow;
+}
+#con1 {
+    background-color: brown;
+}
+a #con1:hover{
+    background-color: yellow;
+}
+a #con2:hover{
+    background-color: yellow;
+}
+a #con3:hover{
+    background-color: yellow;
+}
+
+#con2 {
+    background-color: gray;
+}
+#con3 {
+    background-color: #00e2ff;
+}
+#clear {
+    clear: both;
+    
+}
+#about {
+
+    height: 200px;
+    width: 17.8%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    margin-top: 2%;
+    padding: 3% 3% 2% 3%;
+    background-color: #00e2ff;
+}
+a #about:hover{
+    background-color: black;
+}
+header h1{
+    text-align: center;
+}
