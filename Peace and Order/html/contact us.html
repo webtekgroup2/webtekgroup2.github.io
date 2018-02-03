@@ -6,21 +6,31 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/x-icon" href="../images/logo1.ico" />
+   <link href="../style/style1.css" rel="stylesheet">
 	<title>Contact US</title>
 </head>
 
 <body>
+	
 	<header>
-
-		<a href="../index.html"><img src="../images/logo.png" alt="Peace and Order Logo"/></a>
+		<a href="../index.html"><img src="../images/logo.png" alt="Peace and Order Logo" id="img"/></a>
 	</header>
-	<nav>
+    
+	<nav id="nav">
 		<ul>
 			<li>
-				<a href="../index.html">Home</a>
+				<a class="active" href="../index.html">Home</a>
 			</li>
 			<li>
-				<a href="what%20we%20do.html">What we do</a>
+
+				<div class="dropdown">
+					<a class="dropbtn" href="what%20we%20do.html">What we do</a>
+					<div class="dropdown-content">
+						<a href="html/what%20we%20do.html">Link 1</a>
+						<a href="html/what%20we%20do.html">Link 2</a>
+						<a href="html/what%20we%20do.html">Link 3</a>
+					</div>
+				</div>
 			</li>
 			<li>
 				<a href="gallery.html">Gallery</a>
@@ -29,7 +39,7 @@
 				<a href="about.html">About Us</a>
 			</li>
 			<li>
-				<a class="active" href="contact%20us.html">Contact Us</a>
+				<a href="contact%20us.html">Contact Us</a>
 			</li>
 		</ul>
 	</nav>
