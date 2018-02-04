@@ -1,6 +1,14 @@
+html{box-sizing:border-box}
+body{
+    padding: 0;
+    margin: 0;
+}
+
 header {
-    float: left;
-    max-width: 40%;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    height: auto;
 }
 body {
     clear: both;
@@ -81,4 +89,8 @@ li.dropdown {
 #go-to-top {
     max-width: 50px;
     height: auto;
+}
+
+header img {
+    max-width: 40%;
 }
