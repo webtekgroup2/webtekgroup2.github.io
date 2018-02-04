@@ -6,45 +6,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="../images/logo1.ico" />
-  <link href="../style/style1.css" rel="stylesheet">
+  <link href="../styles/normalize.css" rel="stylesheet" type="text/css">
+  <link href="../styles/style.css" rel="stylesheet" type="text/css">
+  <link href="../styles/gallery.css" rel="stylesheet" type="text/css">
   <title>Home</title>
 </head>
 
 <body>
   <header>
-    <a href="../index.html"><img src="../images/logo.png" alt="Peace and Order Logo" id="img"/></a>
+    <a href="../index.html"><img src="../styles/logo.png" alt="Peace and Order Logo" id="img"/></a>
+    <nav id="nav">
+      <ul>
+        <li>
+          <a class="active" href="../index.html">Home</a>
+        </li>
+        <li>
+          <div class="dropdown">
+            <a class="dropbtn" href="what%20we%20do.html">What we do</a>
+            <div class="dropdown-content">
+              <a href="what%20we%20do.html#monitoring">Monitoring</a>
+              <a href="what%20we%20do.html#cctv">CCTV</a>
+              <a href="what%20we%20do.html#paging">Paging System</a>
+              <a href="what%20we%20do.html#curfew">Curfew</a>
+              <a href="what%20we%20do.html#criminality">Criminality Rate</a>
+              <a href="what%20we%20do.html#drugs">Drugs</a>
+              <a href="what%20we%20do.html#parking">Illegal Parking</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li>
+          <a href="about.html">About Us</a>
+        </li>
+        <li>
+          <a href="contact%20us.html">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
-  <nav id="nav">
-    <ul>
-      <li>
-        <a class="active" href="../index.html">Home</a>
-      </li>
-      <li>
-        <div class="dropdown">
-          <a class="dropbtn" href="what%20we%20do.html">What we do</a>
-          <div class="dropdown-content">
-            <a href="what%20we%20do.html#monitoring">Monitoring</a>
-            <a href="what%20we%20do.html#cctv">CCTV</a>
-            <a href="what%20we%20do.html#paging">Paging System</a>
-            <a href="what%20we%20do.html#curfew">Curfew</a>
-            <a href="what%20we%20do.html#criminality">Criminality Rate</a>
-            <a href="what%20we%20do.html#drugs">Drugs</a>
-            <a href="what%20we%20do.html#parking">Illegal Parking</a>
-          </div>
-        </div>
-      </li>
-      <li>
-        <a href="gallery.html">Gallery</a>
-      </li>
-      <li>
-        <a href="about.html">About Us</a>
-      </li>
-      <li>
-        <a href="contact%20us.html">Contact Us</a>
-      </li>
-    </ul>
-  </nav>
   <div class="main-container">
     <div class="gallery">
       <a target="_blank" href="../images/gallery/img1.jpg">
@@ -209,6 +211,7 @@
       <div class="desc">THe New Lucban road at night</div>
     </div>
   </div>
+
   <footer>
     <nav>
       <a href="../index.html">Home</a> |
