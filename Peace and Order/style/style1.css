@@ -17,12 +17,12 @@ footer{
     color: white;
     text-decoration-color: white;
 }
-#nav {
+nav {
     float: right;
     width: 50%;
     margin-top: 3%;
 }
-#footer {
+footer {
     text-align: center;
 }
 ul {
