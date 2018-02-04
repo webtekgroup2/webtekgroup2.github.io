@@ -1,7 +1,9 @@
-#img {
-    width: 50%;
-    height: 10%;
+header {
     float: left;
+    max-width: 40%;
+}
+body {
+    clear: both;
 }
 #img1 {
     width: 50%;
@@ -25,7 +27,7 @@ nav {
 footer {
     text-align: center;
 }
-ul {
+nav ul {
     list-style-type: none;
     margin: 2%;
     padding: 0 0 0 150px;
@@ -33,11 +35,11 @@ ul {
     background-color: #333;
 }
 
-li {
+nav ul li {
     float: left;
 }
 
-li a, .dropbtn {
+nav ul li a, nav.dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -45,7 +47,7 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+nav ul li a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
 
@@ -74,4 +76,9 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+#go-to-top {
+    max-width: 50px;
+    height: auto;
 }
