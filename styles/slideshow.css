@@ -1,9 +1,5 @@
 .slider {
-  clear: both;
-  display: block;
   box-shadow: 0px 4px 10px #9d9d9d;
-  padding: 0;
-  margin: 0;
   max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
